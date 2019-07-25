@@ -1,0 +1,26 @@
+<annotation>
+	<folder>detection</folder>
+	<filename>1.jpg</filename>
+	<path>/Users/JessyChen/Desktop/Try SSD/ssd.pytorch-master/data/VOCdevkit/VOC2019/JPEGImages/1.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4032</width>
+		<height>3024</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>car</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1342</xmin>
+			<ymin>720</ymin>
+			<xmax>2865</xmax>
+			<ymax>2338</ymax>
+		</bndbox>
+	</object>
+</annotation>
