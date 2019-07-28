@@ -17,19 +17,20 @@ if sys.version_info[0] == 2:
 else:
     import xml.etree.ElementTree as ET
 
-# VOC_CLASSES = (  # always index 0
-#     'aeroplane', 'bicycle', 'bird', 'boat',
-#     'bottle', 'bus', 'car', 'cat', 'chair',
-#     'cow', 'diningtable', 'dog', 'horse',
-#     'motorbike', 'person', 'pottedplant',
-#     'sheep', 'sofa', 'train', 'tvmonitor')
-
-
 VOC_CLASSES = (  # always index 0
-    'car1')
+    'aeroplane', 'bicycle', 'bird', 'boat',
+    'bottle', 'bus', 'car', 'cat', 'chair',
+    'cow', 'diningtable', 'dog', 'horse',
+    'motorbike', 'person', 'pottedplant',
+    'sheep', 'sofa', 'train', 'tvmonitor', 'zjunlict')
+
+
+# VOC_CLASSES = (  # always index 0
+#     'zjunlict'
+# )
 
 # note: if you used our download scripts, this should be right
-VOC_ROOT = osp.join(HOME, "data/VOCdevkit/")
+VOC_ROOT = osp.join(HOME, "Desktop/SSD/data/VOCdevkit/")
 
 
 class VOCAnnotationTransform(object):
