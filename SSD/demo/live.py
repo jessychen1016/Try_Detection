@@ -47,7 +47,16 @@ def cv2_demo(net, transform):
     # loop over frames from the video file stream
     while True:
         # grab next frame
-        frame = stream.read()
+        # frame = stream.read()
+	frame = cv2.imread('../data/VOCdevkit/VOC2019/test/test1.jpg')
+
+        scale_percent = 120       # percent of original size
+        width = int(frame.shape[1] * scale_percent / 100)
+        height = int(frame.shape[0] * scale_percent / 100)
+        dim = (width, height)
+# resize image
+        frame = cv2.resize(frame, dim, interpolation = cv2.INTER_AREA)
+        # frame = stream.read()
         key = cv2.waitKey(1) & 0xFF
 
         # update FPS counter
