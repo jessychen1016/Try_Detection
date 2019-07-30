@@ -30,7 +30,7 @@ VOC_CLASSES = (  # always index 0
 # )
 
 # note: if you used our download scripts, this should be right
-VOC_ROOT = osp.join(HOME, "Desktop/SSD/data/VOCdevkit/")
+VOC_ROOT = osp.join(HOME, "Desktop/Try_Detection/SSD/data/VOCdevkit/")
 
 
 class VOCAnnotationTransform(object):

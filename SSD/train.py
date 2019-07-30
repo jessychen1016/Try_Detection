@@ -16,6 +16,9 @@ import numpy as np
 import argparse
 from tensorboardX import SummaryWriter
 
+device = torch.device("cuda:1" if torch.cuda.is_available() else "cpu")
+torch.cuda.set_device(device)
+
 writer = SummaryWriter(log_dir="./log")
 
 def str2bool(v):
@@ -37,11 +40,11 @@ parser.add_argument('--resume', default=None, type=str,
                     help='Checkpoint state_dict file to resume training from')
 parser.add_argument('--start_iter', default=0, type=int,
                     help='Resume training at this iter')
-parser.add_argument('--num_workers', default=0, type=int,
+parser.add_argument('--num_workers', default=4, type=int,
                     help='Number of workers used in dataloading')
 parser.add_argument('--cuda', default=True, type=str2bool,
                     help='Use CUDA to train model')
-parser.add_argument('--lr', '--learning-rate', default=2*1e-4, type=float,
+parser.add_argument('--lr', '--learning-rate', default=5*1e-4, type=float,
                     help='initial learning rate')
 parser.add_argument('--momentum', default=0.9, type=float,
                     help='Momentum value for optim')
@@ -51,7 +54,7 @@ parser.add_argument('--gamma', default=0.1, type=float,
                     help='Gamma update for SGD')
 parser.add_argument('--visdom', default=False, type=str2bool,
                     help='Use visdom for loss visualization')
-parser.add_argument('--save_folder', default='weights/',
+parser.add_argument('--save_folder', default='/home/chenzexi/Data/weights/',
                     help='Directory for saving checkpoint models')
 args = parser.parse_args()
 
@@ -59,6 +62,7 @@ args = parser.parse_args()
 if torch.cuda.is_available():
     if args.cuda:
         torch.set_default_tensor_type('torch.cuda.FloatTensor')
+
     if not args.cuda:
         print("WARNING: It looks like you have a CUDA device, but aren't " +
               "using CUDA.\nRun with --cuda for optimal training speed.")
@@ -99,7 +103,8 @@ def train():
     net = ssd_net
 
     if args.cuda:
-        net = torch.nn.DataParallel(ssd_net)
+        # net = torch.nn.DataParallel(ssd_net)
+        net = ssd_net
         cudnn.benchmark = True
 
     if args.resume:
@@ -205,7 +210,7 @@ def train():
 
         if iteration != 0 and iteration % 50 == 0:
             print('Saving state, iter:', iteration)
-            torch.save(ssd_net.state_dict(), 'weights/ssd300_VOC_' +
+            torch.save(ssd_net.state_dict(), '/home/chenzexi/Data/weights/ssd300_VOC_' +
                        repr(iteration) + '.pth')
     torch.save(ssd_net.state_dict(),
                args.save_folder + '' + args.dataset + '.pth')
