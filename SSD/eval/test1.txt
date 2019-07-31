@@ -643,3 +643,333 @@ GROUND TRUTH FOR: 002
 label: 945.0 || 320.0 || 3260.0 || 2672.0 || 20
 PREDICTIONS: 
 1 label: zjunlict score: tensor(0.9612) 363.44852 || 244.52611 || 2624.725 || 3134.3472
+
+GROUND TRUTH FOR: 040
+label: 465.0 || 199.0 || 1020.0 || 807.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(1.0000) 436.31476 || 196.01851 || 1046.2637 || 809.4174
+
+GROUND TRUTH FOR: 107
+label: 381.0 || 0.0 || 3298.0 || 2682.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(0.9881) 654.4296 || 162.7081 || 3184.6377 || 2500.0798
+
+GROUND TRUTH FOR: 038
+label: 1469.0 || 725.0 || 2779.0 || 2201.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(1.0000) 1453.7605 || 691.9008 || 2752.6428 || 2159.3801
+
+GROUND TRUTH FOR: 070
+label: 470.0 || 178.0 || 1133.0 || 882.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(1.0000) 435.28696 || 185.8534 || 1158.0417 || 876.4189
+
+GROUND TRUTH FOR: 091
+label: 479.0 || 139.0 || 3495.0 || 3023.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(0.9368) 596.2665 || 186.35834 || 2951.251 || 2747.0469
+
+GROUND TRUTH FOR: 103
+label: 426.0 || 240.0 || 1046.0 || 927.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(1.0000) 408.57587 || 231.64238 || 1076.2231 || 938.4642
+
+GROUND TRUTH FOR: 022
+label: 1322.0 || 663.0 || 2836.0 || 2339.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(1.0000) 1303.4264 || 618.4682 || 2855.335 || 2364.6035
+
+GROUND TRUTH FOR: 068
+label: 410.0 || 148.0 || 1051.0 || 815.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(1.0000) 404.06363 || 153.04405 || 1067.9319 || 826.30286
+
+GROUND TRUTH FOR: 048
+label: 369.0 || 17.0 || 1077.0 || 830.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(1.0000) 352.451 || 37.63884 || 1083.8187 || 787.9309
+
+GROUND TRUTH FOR: 113
+label: 426.0 || 89.0 || 1134.0 || 841.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(0.9997) 396.1092 || 89.19757 || 1168.3855 || 824.10474
+
+GROUND TRUTH FOR: 081
+label: 936.0 || 253.0 || 3583.0 || 2848.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(0.9993) 1180.7467 || 277.52466 || 3336.5417 || 2640.7993
+
+GROUND TRUTH FOR: 037
+label: 413.0 || 94.0 || 1144.0 || 843.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(0.9998) 397.9167 || 121.79626 || 1145.8033 || 826.7183
+
+GROUND TRUTH FOR: 097
+label: 420.0 || 182.0 || 1046.0 || 848.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(1.0000) 393.49698 || 174.18852 || 1068.2144 || 876.6141
+
+GROUND TRUTH FOR: 020
+label: 364.0 || 89.0 || 1044.0 || 807.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(1.0000) 347.64618 || 76.439064 || 1069.3096 || 803.1999
+
+GROUND TRUTH FOR: 060
+label: 622.0 || 134.0 || 3322.0 || 2829.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(0.9919) 938.6388 || 233.89673 || 3162.873 || 2504.9707
+
+GROUND TRUTH FOR: 051
+label: 185.0 || 100.0 || 1033.0 || 1004.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(0.9998) 169.06744 || 77.431755 || 1057.4967 || 1006.4367
+
+GROUND TRUTH FOR: 007
+label: 393.0 || 155.0 || 1052.0 || 864.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(1.0000) 383.66452 || 151.72714 || 1074.977 || 865.84924
+
+GROUND TRUTH FOR: 117
+label: 560.0 || 0.0 || 3208.0 || 2948.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(0.9660) 554.0969 || 115.34635 || 3055.7637 || 2726.0195
+
+GROUND TRUTH FOR: 123
+label: 311.0 || 64.0 || 1210.0 || 958.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(1.0000) 297.73215 || 58.14879 || 1210.4354 || 968.92706
+
+GROUND TRUTH FOR: 055
+label: 251.0 || 0.0 || 1193.0 || 917.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(1.0000) 261.99496 || 12.224758 || 1192.3674 || 887.7507
+
+GROUND TRUTH FOR: 104
+label: 707.0 || 282.0 || 3055.0 || 2629.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(0.9971) 1177.2372 || 399.9414 || 3305.481 || 2708.934
+
+GROUND TRUTH FOR: 008
+label: 413.0 || 156.0 || 1093.0 || 887.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(1.0000) 411.17868 || 162.05109 || 1107.0215 || 867.447
+
+GROUND TRUTH FOR: 018
+label: 812.0 || 167.0 || 3374.0 || 2886.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(1.0000) 783.8086 || 105.06746 || 3480.1838 || 2926.3647
+
+GROUND TRUTH FOR: 121
+label: 594.0 || 0.0 || 3498.0 || 2958.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(1.0000) 532.2311 || 31.063778 || 3576.4146 || 3032.372
+
+GROUND TRUTH FOR: 033
+label: 351.0 || 245.0 || 1128.0 || 963.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(1.0000) 347.6082 || 252.91405 || 1144.5989 || 936.1108
+
+GROUND TRUTH FOR: 105
+label: 244.0 || 41.0 || 1072.0 || 864.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(0.9996) 261.6746 || 33.989597 || 1082.2931 || 830.8767
+
+GROUND TRUTH FOR: 039
+label: 152.0 || 0.0 || 1051.0 || 886.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(0.9970) 213.64937 || 12.243813 || 1070.5747 || 812.1856
+
+GROUND TRUTH FOR: 066
+label: 185.0 || 0.0 || 1125.0 || 766.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(1.0000) 220.38998 || -7.863325 || 1138.0018 || 717.3104
+
+GROUND TRUTH FOR: 126
+label: 383.0 || 0.0 || 1098.0 || 718.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(1.0000) 376.51794 || 23.031023 || 1088.067 || 671.80927
+
+GROUND TRUTH FOR: 074
+label: 436.0 || 297.0 || 1034.0 || 963.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(1.0000) 424.68286 || 292.61456 || 1047.1152 || 945.0785
+
+GROUND TRUTH FOR: 065
+label: 0.0 || 11.0 || 722.0 || 955.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(0.9998) 40.310963 || 63.390686 || 668.3985 || 881.20447
+
+GROUND TRUTH FOR: 046
+label: 379.0 || 5.0 || 1090.0 || 751.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(1.0000) 368.62683 || 23.887184 || 1086.3242 || 715.22064
+
+GROUND TRUTH FOR: 075
+label: 893.0 || 429.0 || 3155.0 || 2729.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(1.0000) 882.58325 || 426.10068 || 3239.71 || 2623.6963
+
+GROUND TRUTH FOR: 016
+label: 1112.0 || 491.0 || 3017.0 || 2548.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(1.0000) 1146.2607 || 516.9536 || 3088.9917 || 2438.2888
+
+GROUND TRUTH FOR: 099
+label: 312.0 || 0.0 || 1108.0 || 823.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(1.0000) 323.3442 || 11.207085 || 1118.1608 || 781.80585
+
+GROUND TRUTH FOR: 111
+label: 387.0 || 68.0 || 1082.0 || 781.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(0.9999) 372.36768 || 51.00374 || 1102.3589 || 781.10114
+
+GROUND TRUTH FOR: 041
+label: 469.0 || 176.0 || 1131.0 || 876.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(1.0000) 435.28696 || 185.8534 || 1158.0417 || 876.4189
+
+GROUND TRUTH FOR: 076
+label: 385.0 || 76.0 || 1177.0 || 917.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(1.0000) 354.79202 || 93.80233 || 1181.7883 || 900.45105
+
+GROUND TRUTH FOR: 005
+label: 750.0 || 244.0 || 3522.0 || 2867.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(1.0000) 655.8318 || 215.84003 || 3655.179 || 2847.0034
+
+GROUND TRUTH FOR: 083
+label: 295.0 || 0.0 || 1134.0 || 635.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(1.0000) 324.9053 || 17.113308 || 1137.8275 || 587.52905
+
+GROUND TRUTH FOR: 092
+label: 413.0 || 176.0 || 1054.0 || 853.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(1.0000) 393.49698 || 174.18852 || 1068.2144 || 876.6141
+
+GROUND TRUTH FOR: 069
+label: 398.0 || 241.0 || 1026.0 || 899.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(1.0000) 378.94653 || 233.81483 || 1063.6796 || 902.0038
+
+GROUND TRUTH FOR: 044
+label: 950.0 || 372.0 || 3231.0 || 2701.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(1.0000) 875.268 || 392.732 || 3262.4421 || 2615.3926
+
+GROUND TRUTH FOR: 118
+label: 1269.0 || 691.0 || 2707.0 || 2320.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(1.0000) 1210.4459 || 659.99945 || 2768.661 || 2337.7515
+
+GROUND TRUTH FOR: 085
+label: 349.0 || 248.0 || 1126.0 || 964.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(1.0000) 347.6082 || 252.91405 || 1144.5989 || 936.1108
+
+GROUND TRUTH FOR: 017
+label: 679.0 || 115.0 || 3622.0 || 2853.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(1.0000) 546.0128 || 119.037125 || 3626.0198 || 2885.2568
+
+GROUND TRUTH FOR: 082
+label: 464.0 || 202.0 || 1056.0 || 889.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(1.0000) 442.44827 || 215.20438 || 1060.3552 || 877.05786
+
+GROUND TRUTH FOR: 043
+label: 272.0 || 148.0 || 1120.0 || 964.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(1.0000) 264.26398 || 173.94635 || 1131.557 || 928.0181
+
+GROUND TRUTH FOR: 114
+label: 798.0 || 20.0 || 3550.0 || 2763.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(1.0000) 589.22363 || 41.787872 || 3468.111 || 2718.362
+
+GROUND TRUTH FOR: 052
+label: 722.0 || 101.0 || 3402.0 || 2777.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(1.0000) 590.6976 || 50.27243 || 3452.5232 || 2720.3816
+
+GROUND TRUTH FOR: 032
+label: 265.0 || 23.0 || 997.0 || 792.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(0.9997) 288.59238 || 22.684278 || 987.84283 || 765.72644
+
+GROUND TRUTH FOR: 093
+label: 418.0 || 143.0 || 1100.0 || 864.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(0.9999) 431.56622 || 142.60104 || 1139.5052 || 842.22516
+
+GROUND TRUTH FOR: 077
+label: 779.0 || 34.0 || 3800.0 || 3023.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(0.9999) 627.8711 || 66.261826 || 3697.1096 || 2962.268
+
+GROUND TRUTH FOR: 108
+label: 497.0 || 187.0 || 1065.0 || 861.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(1.0000) 477.4322 || 181.16086 || 1067.8033 || 855.2993
+
+GROUND TRUTH FOR: 078
+label: 490.0 || 289.0 || 1069.0 || 878.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(0.9999) 454.9841 || 290.95923 || 1081.8895 || 885.7531
+
+GROUND TRUTH FOR: 011
+label: 612.0 || 244.0 || 3079.0 || 2653.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(0.9986) 1107.3416 || 381.68503 || 3374.1526 || 2715.4316
+
+GROUND TRUTH FOR: 004
+label: 397.0 || 115.0 || 1116.0 || 876.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(1.0000) 387.4391 || 127.76621 || 1127.011 || 860.36414
+
+GROUND TRUTH FOR: 116
+label: 783.0 || 20.0 || 3293.0 || 2772.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(1.0000) 745.3621 || 65.66224 || 3429.8557 || 2783.5798
+
+GROUND TRUTH FOR: 024
+label: 1417.0 || 786.0 || 2698.0 || 2282.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(1.0000) 1414.2131 || 776.36206 || 2680.4407 || 2260.5825
+
+GROUND TRUTH FOR: 106
+label: 439.0 || 84.0 || 1138.0 || 861.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(0.9998) 465.56204 || 96.4377 || 1153.7769 || 845.6933
+
+GROUND TRUTH FOR: 101
+label: 307.0 || 15.0 || 3331.0 || 2867.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(0.9751) 828.2592 || 209.11972 || 3170.6328 || 2514.0933
+
+GROUND TRUTH FOR: 067
+label: 1369.0 || 758.0 || 2731.0 || 2286.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(1.0000) 1354.923 || 709.11346 || 2696.1824 || 2261.0642
+
+GROUND TRUTH FOR: 010
+label: 736.0 || 10.0 || 3717.0 || 2958.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(0.9999) 569.70557 || 66.09338 || 3568.4128 || 2723.1162
+
+GROUND TRUTH FOR: 115
+label: 354.0 || 281.0 || 1039.0 || 1004.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(1.0000) 330.04755 || 265.8986 || 1054.6918 || 1008.5226
+
+GROUND TRUTH FOR: 056
+label: 423.0 || 145.0 || 1102.0 || 859.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(0.9999) 431.56622 || 142.60104 || 1139.5052 || 842.22516
+
+GROUND TRUTH FOR: 042
+label: 817.0 || 101.0 || 3291.0 || 3023.0 || 20
+PREDICTIONS: 
+1 label: zjunlict score: tensor(1.0000) 690.4434 || 44.36843 || 3292.5886 || 2957.3901

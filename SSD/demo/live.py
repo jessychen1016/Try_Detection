@@ -7,10 +7,12 @@ from imutils.video import FPS, WebcamVideoStream
 import argparse
 
 parser = argparse.ArgumentParser(description='Single Shot MultiBox Detection')
-parser.add_argument('--weights', default='weights/ssd_300_VOC0712.pth',
+parser.add_argument('--weights', default='/home/chenzexi/Data/weights/ssd300_VOC_6200.pth',
                     type=str, help='Trained state_dict file path')
 parser.add_argument('--cuda', default=False, type=bool,
                     help='Use cuda in live demo')
+parser.add_argument('--threshold', default=0.6, type=float,
+                    help='The threshold for detection')
 args = parser.parse_args()
 
 COLORS = [(255, 0, 0), (0, 255, 0), (0, 0, 255)]
@@ -28,7 +30,7 @@ def cv2_demo(net, transform):
         scale = torch.Tensor([width, height, width, height])
         for i in range(detections.size(1)):
             j = 0
-            while detections[0, i, j, 0] >= 0.6:
+            while detections[0, i, j, 0] >= args.threshold:
                 pt = (detections[0, i, j, 1:] * scale).cpu().numpy()
                 cv2.rectangle(frame,
                               (int(pt[0]), int(pt[1])),
@@ -41,15 +43,14 @@ def cv2_demo(net, transform):
 
     # start video stream thread, allow buffer to fill
     print("[INFO] starting threaded video stream...")
-    stream = WebcamVideoStream(src=0).start()  # default camera
+    #stream = WebcamVideoStream(src=0).start()  # default camera
     time.sleep(1.0)
     # start fps timer
     # loop over frames from the video file stream
     while True:
         # grab next frame
         # frame = stream.read()
-	frame = cv2.imread('../data/VOCdevkit/VOC2019/test/test1.jpg')
-
+        frame = cv2.imread('../data/VOCdevkit/VOC2019/test/test1.jpg')
         scale_percent = 120       # percent of original size
         width = int(frame.shape[1] * scale_percent / 100)
         height = int(frame.shape[0] * scale_percent / 100)
@@ -83,7 +84,7 @@ if __name__ == '__main__':
     from data import BaseTransform, VOC_CLASSES as labelmap
     from ssd import build_ssd
 
-    net = build_ssd('test', 300, 21)    # initialize SSD
+    net = build_ssd('test', 300, 22)    # initialize SSD
     net.load_state_dict(torch.load(args.weights))
     transform = BaseTransform(net.size, (104/256.0, 117/256.0, 123/256.0))
 
